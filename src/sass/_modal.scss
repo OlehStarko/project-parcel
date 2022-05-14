@@ -1,7 +1,7 @@
 .button {
   width: 426px;
   height: 100px;
-  background-color: #263238;
+  background-color: #0f0d0b;
   border-radius: 10px;
 
   font-weight: 400;
@@ -9,9 +9,13 @@
   line-height: 54px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
 
   color: #ffffff;
   cursor: pointer;
+}
+.button:hover {
+  background-color: #ed8d06;
 }
 
 .backdrop {
